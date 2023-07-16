@@ -1,0 +1,16 @@
+header {
+    background: $omie-blue-header;
+    color: $omie-primary;
+
+    .title {
+        height: 1.875rem;
+
+        h2 {
+            font-size: 0.875rem;
+        }
+    }
+
+    a {
+        color: $omie-primary;
+    }
+}
