@@ -1,0 +1,9 @@
+{
+    "author":"Nilson Batista",
+    "name":"iode/mvc",
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    } 
+}
