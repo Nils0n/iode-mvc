@@ -229,7 +229,7 @@ select.select-month {
     height: 120vh;
   }
   .new-item:nth-child(1) {
-    background-image: url("../../../assets/images/banner-omiemidia.webp");
+    background-image: url("/public/assets/images/banner-omiemidia.webp");
     height: 100vh;
     color: #F7F7F7;
   }
