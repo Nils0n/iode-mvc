@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+
+@import "./partials/colors";
+@import "./partials/header";
+@import "./partials/footer";
+@import "./partials/layout";
+
+body {
+    background-color: $omie-dark !important;
+}
