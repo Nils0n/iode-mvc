@@ -7,6 +7,9 @@
         }
     },
     "require": {
-        "william-costa/dot-env": "^0.1.0"
+        "william-costa/dot-env": "^0.1.0",
+        "facebook/graph-sdk": "^5.1",
+        "google/apiclient": "2.12.1",
+        "php":"^8.1"
     }
 }

@@ -8,16 +8,18 @@ use \WilliamCosta\DotEnv\Environment;
 
 Environment::load(__DIR__);
 
+
 define('URL', getenv('URL'));
 
 View::init([
     'URL' => URL
 ]);
 
-
 $objRoute = new Router(URL);
 
 include __DIR__ . '/routes/web.php';
+
+
 
 
 $objRoute->run()->sendResponse();
